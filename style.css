@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(220, 255, 188, 0.733);
+}
+.title{
+    margin-top: 30px;
+    font-family: raisulRafi;
+    font-weight: 400;
+    font-size: 35px;
+    color: rgb(255, 109, 165);
+    text-align: center;
+}
+.main{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+    border: none;
+    border-radius: 50px;
+    font-family: raisulRafi;
+    font-weight: 400;
+    font-size: 50px;
+    box-shadow: 3px 3px 6px rgba(100, 100, 100, 0.493);
+    cursor: help;
+    transition: all 0.5s;
+    }
+.btn1{
+    background: rgb(120, 103, 230);
+    color: rgb(120, 255, 199);
+    }
+.btn2{
+    background: rgb(255, 109, 165);
+    color: rgb(174, 239, 255);
+    }
+.btn1:hover{
+    background: rgb(120, 255, 199);
+    color: rgb(120, 103, 230);
+    border-radius: 20px;
+    }
+.btn2:hover{
+    background: rgb(128, 230, 255);
+    color: rgb(255, 95, 156);
+    border-radius: 20px;
+    }
+.txt{
+    font-size: 17px;
+    color: rgb(120, 103, 230);
+    text-align: center;
+    margin-top: 100px;
+    transition: all 0.5s;
+    }
+.txt:hover{
+    font-size: 17px;
+    color: rgb(255, 95, 156);
+    cursor: help;
+    }
+.link{
+    color: rgb(255, 95, 156);
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: raisulRafi;
+    transition: all 0.5s;
+    }
+.link:hover{
+        color: rgb(120, 103, 230);
+        text-decoration: none;
+        font-size: 40px;
+        font-family: raisulRafi;
+        cursor: pointer;
+    }
+@font-face {
+    font-family: 'raisulRafi';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("fonts/KidsDress.otf")
+    }
